@@ -21,7 +21,7 @@ BOARD_EGL_CFG := device/huawei/u9200/egl.cfg
 TARGET_KERNEL_CONFIG := cyanogenmod_u9200_defconfig
 TARGET_KERNEL_SOURCE := kernel/huawei/u9200
 
-BOARD_KERNEL_CMDLINE := console=ttyGS2,115200n8 mem=1G vmalloc=768M omap_wdt.timer_margin=30 mmcparts=mmcblk0:p15(splash) androidboot.hardware=u9200
+BOARD_KERNEL_CMDLINE := console=ttyO0,115200n8 mem=1G vmalloc=768M omap_wdt.timer_margin=30 mmcparts=mmcblk0:p15(splash) androidboot.hardware=u9200
 BOARD_KERNEL_BASE := 0x80000000
 BOARD_KERNEL_PAGESIZE := 2048
 
